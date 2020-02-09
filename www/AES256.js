@@ -26,6 +26,5 @@ AES256.prototype.generateSecureIV = function (password, success, error) {
     exec(success, error, 'AES256', 'generateSecureIV', [password]);
 };
 
-var aES256 = new AES256();
 
-module.exports = aES256;
+module.exports = AES256;
