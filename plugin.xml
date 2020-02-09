@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>AES256</name>
     <js-module name="AES256" src="www/AES256.js">
-        <clobbers target="cordova.plugins.AES256" />
+        <clobbers target="AES256" />
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
